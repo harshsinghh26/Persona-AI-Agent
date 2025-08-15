@@ -13,7 +13,7 @@ A futuristic AI-powered platform built with **Next.js** where users can interact
 - 🖥 **Responsive UI** — Optimized for desktop and mobile.
 - 🛠 **Next.js App Router** — Modern, server-rendered React setup.
 - 🎨 **Tailwind CSS** — Rapid, responsive styling.
-- 🤖 **LLM Integration** — Connects to AI models (OpenAI, Gemini, or custom).
+- 🤖 **LLM Integration** — Connects to AI models (OpenAI).
 
 ---
 
@@ -23,27 +23,9 @@ A futuristic AI-powered platform built with **Next.js** where users can interact
 - [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/) (if animations used)
 
 **Backend**
-- Next.js API Routes (or external API)
-- AI API (e.g., OpenAI / Gemini)
-- Optional: MongoDB / Supabase for persistent data
+- Next.js API Routes
+- AI API (OpenAI)
 
 ---
-
-## 📂 Project Structure
-
-```plaintext
-|
-├── app/                 # App Router pages & layouts
-│   ├── page.tsx         # Landing page
-│   ├── dashboard/       # AI chat interface
-│   └── [persona]/       # Dynamic persona routes
-├── components/          # Reusable UI components
-├── lib/                 # Utilities & API handlers
-├── public/              # Static assets
-├── styles/              # Global styles & Tailwind config
-├── .env.local           # Environment variables
-├── package.json
-└── next.config.js
