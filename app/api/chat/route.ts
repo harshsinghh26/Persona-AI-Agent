@@ -3,7 +3,9 @@ import "dotenv/config";
 import { hiteshPrompt } from "../prompts/hitesh";
 import { piyushPrompt } from "../prompts/piyush";
 
-const client = new OpenAI();
+const client = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
 
 interface ChatMessage {
   content: string;
