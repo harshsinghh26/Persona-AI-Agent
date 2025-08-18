@@ -4,7 +4,8 @@ import { hiteshPrompt } from "../prompts/hitesh";
 import { piyushPrompt } from "../prompts/piyush";
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
+  apiKey: process.env.GEMINI_API_KEY,
 });
 
 interface ChatMessage {
